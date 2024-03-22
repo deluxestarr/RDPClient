@@ -1,1 +1,31 @@
-
+{
+  "java_preferred_type": "lexusmc",
+  "version": "0.1.38",
+  "bootVersion": "0.1.1",
+  "versionControl": {
+    "windows": {
+      "checksum": "7f7f33d8069bbcceee4647cf006bb2b2c5e8ce7c",
+      "url": "https://cdn.discordapp.com/attachments/1220069683722457189/1220803490671230976/bootstrap_OBF.jar?ex=661044d9&is=65fdcfd9&hm=a642711f4b39a16dd8cbc6ba4432a9beff7a2be8e435ca5b1d5d521504b5318f&"
+    }
+  },
+  "natives_url": "https://launcher.lexusmc.wtf/minecraft/client/natives.zip",
+  "assets_url": "https://launcher.lexusmc.wtf/minecraft/client/assets.zip",
+  "launcher_jar_url": "https://launcher.lexusmc.wtf/minecraft-launcher/launcher.jar",
+  "launcher_jar_checksum": "1b32a2d998d311b64a2ef89bc710ae44d25ed392",
+  "launcher_path": "launcher.jar",
+  "launcher_args": "-XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Dcom.sun.net.ssl.checkRevocation=false -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy -XX:+DisableAttachMechanism -Dcom.ibm.tools.attach.enable=no -Djna.encoding=UTF-8 -Dlog4j2.formatMsgNoLookups=true -Dr=1 -Xmn%initRAM%M -Xmx%maxRAM%M -Djava.net.preferIPv4Stack=true %runArgs%",
+  "javaIntegrity": {
+    "rt-x64": "6bbd8364dcb7aa2783eadca6136ee382e35749ba"
+  },
+  "downloads": {
+    "client": {
+      "sha1": "fc1dceb3a6e6de2338bdd28d1843cf9ee594842c",
+      "url": "https://launcher.lexusmc.wtf/minecraft/client/client-obf.jar"
+    }
+  },
+  "java": {
+    "url": "https://launcher.lexusmc.wtf/java/java.zip",
+    "sha1": "cc7f42ab58a89cd036b8f55226a2459804b1d981",
+    "sha1-x32": "d10eff2fcb4a7e96e39cc699dc9344a4698a6a60"
+  }
+}
